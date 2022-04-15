@@ -43,7 +43,9 @@ The STF IoT module offers digital twin capabilities, enabling territories to sto
 ### Built on an open standard
 
 Built on an open standard, the Smart Territory Framework enables decoupling data producers from data consumers, to build scalable and interoperable solutions. 
-The FIWARE Context Broker satisfies the [NGSI](https://www.etsi.org/technologies/internet-of-things) specification (specified by the ETSI Industry Specification Group on Context Information Management – [ETSI ISG CIM](https://www.etsi.org/technologies/internet-of-things)). This specification provides an open API for managing and requesting information and an underlying information model based on Entities that are digital representations of real-world object having `properties` and `relationships` with other entities. 
+The FIWARE Context Broker satisfies the [NGSI](https://www.etsi.org/technologies/internet-of-things) specification (specified by the ETSI Industry Specification Group on Context Information Management – [ETSI ISG CIM](https://www.etsi.org/technologies/internet-of-things)). 
+
+This specification provides an open API for managing and requesting information and an underlying information model based on Entities that are digital representations of real-world object having `properties` and `relationships` with other entities. 
 
 The STF leverages the [Smart Data Models](https://smartdatamodels.org/) initiative that provides NGSI compliant open-licensed data models (more than 700 as of March 2022) for different industry domains such as Smart Cities, Smart Agrifood, Smart Environment and Smart Manufacturing 
 
@@ -64,16 +66,21 @@ You can use this catalog to implement a platform based on the STF with the flexi
 The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker. 
 We provide below a list of the different flavors of the STF Core integrating the [multiple implementations](https://www.fiware.org/developers/catalogue/) of the FIWARE Context Broker available. 
 
-- [STF Core using NEC Scorpio](https://github.com/aws-samples/aws-stf-core-scorpio). [NEC Laboratories Europe](https://www.neclab.eu/) and AWS have worked together to provide a scalable and available implementation of the NEC Scorpio Broker 2.0 on AWS using [Serverless services](https://aws.amazon.com/serverless/?nc1=h_ls). 
+- [STF Core using NEC Scorpio](https://github.com/aws-samples/aws-stf-core-scorpio). 
+
+[NEC Laboratories Europe](https://www.neclab.eu/) and AWS have worked together to provide a scalable and available implementation of the NEC Scorpio Broker 2.0 on AWS using [Serverless services](https://aws.amazon.com/serverless/?nc1=h_ls). 
+
 - STF Core using Orion-LD (work in progress)
 
 
 ### Data Producers 
 
-- [Smart Parking - Bosch PLS](https://github.com/aws-samples/aws-stf-dp-boschpls). A CDK application to deploy a Data Producer that ingests data from the Bosch PLS, LoRaWAN Parking Lot sensors, using AWS IoT Core for LoRaWAN
+- [Smart Parking - Bosch PLS](https://github.com/aws-samples/aws-stf-dp-boschpls). 
+
+A CDK application to deploy a Data Producer that ingests data from the Bosch PLS, LoRaWAN Parking Lot sensors, using AWS IoT Core for LoRaWAN
 
 
-## Data Consumers 
+### Data Consumers 
 
 - Coming soon...
 
