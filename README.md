@@ -56,6 +56,8 @@ Built around the FIWARE Context Broker, the STF IoT module expands its capabilit
 
 The STF IoT module offers digital twin capabilities, enabling territories to store and retrieve the current state of every registered device in real-time. It also consists of an IoT data lake built on [Amazon S3](https://aws.amazon.com/products/storage/data-lake-storage/) that territories can use to query and generate insights about their IoT data but also to easily visualise them.
 
+
+
 ### Built on an open standard
 
 Built on an open standard, the Smart Territory Framework enables decoupling data producers from data consumers, to build scalable and interoperable solutions. 
@@ -67,9 +69,15 @@ The STF leverages the [Smart Data Models](https://smartdatamodels.org/) initiati
 
 Using standardized and open API and data models help expand the capabilities of a platform based on the STF. Add new modules and capabilities, new data producers and consumers over time. Access a global market of standardized solutions facilitating the integration with your ecosystem of partners and solution providers. 
 
+<br>
+
 ![STF Solutions](./docs/images/stfsolutions.png)
 
+<br>
+
 Build shareable, replicable and reusable end-to-end solutions based on standardized module that you or your customers can easily deploy and update using the [AWS Cloud Development Kit](https://aws.amazon.com/cdk/) (AWS CDK), our open-source software development framework. 
+
+<br>
 
 ## Smart Territory Framework Catalog
 
