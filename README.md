@@ -66,7 +66,7 @@ You can use this catalog to implement a platform based on the STF with the flexi
 The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker. 
 We provide below a list of the different flavors of the STF Core integrating the [multiple implementations](https://www.fiware.org/developers/catalogue/) of the FIWARE Context Broker available. 
 
-- [**STF Core using NEC Scorpio**](https://github.com/aws-samples/aws-stf-core-scorpio). [NEC Laboratories Europe](https://www.neclab.eu/) and AWS have worked together to provide a scalable and available implementation of the NEC Scorpio Broker 2.0 on AWS using [Serverless services](https://aws.amazon.com/serverless/?nc1=h_ls). 
+- [**STF Core using NEC Scorpio Broker**](https://github.com/aws-samples/aws-stf-core-scorpio). NEC Laboratories Europe and AWS have worked together to provide a scalable and available implementation of the NEC Scorpio Broker 2.0 on AWS using [Serverless services](https://aws.amazon.com/serverless/?nc1=h_ls). 
 
 - STF Core using Orion-LD (work in progress)
 
