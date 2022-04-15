@@ -4,6 +4,22 @@ Territories have the mission to deliver a good quality of life for their residen
 
 The Smart Territory Framework - STF - is a set of tools and standardized modules that our partners and customers can assemble together to build and operate sustainable and highly effective solutions, in line with global industry standards and based on the open-source offering of the [FIWARE](https://www.fiware.org/) ecosystem 
 
+<br>
+
+## Table of Contents
+
+- [Overview](#overview)
+    - [FIWARE Context Broker](#fiware-context-broker)
+    - [STF IoT module](#stf-iot-module)
+    - [Built on an open standard](#built-on-an-open-standard)
+- [Smart Territory Framework Catalog](#smart-territory-framework-catalog)
+    - [STF Core](#stf-core)
+    - [Data Producers](#data-producers)
+    - [Data Consumers](#data-consumers)
+- [Additional Resources](#additional-resources)
+
+<br>
+
 ## Overview
 
 Modular and built on open source and standards, the STF makes it easy to integrate existing solutions and add new capabilities and modules over time to its core. The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker.
@@ -81,6 +97,15 @@ We provide below a list of the different flavors of the STF Core integrating the
 ### Data Consumers 
 
 - Coming soon...
+
+## Additional Resources
+
+This section provides links to additional resources that may help implement solutions based on the Smart Territory Framework: 
+
+- [FIWARE NGSI-LD Tutorial](https://ngsi-ld-tutorials.readthedocs.io/en/latest/)
+- [JSON-LD, NGSI-LD, Digital Twins and Smart Data Models](https://www.youtube.com/watch?v=dfigPKx99Bs)
+- [Smart Data Models](https://smartdatamodels.org/)
+- [AWS CDK Workshop](https://cdkworkshop.com/)
 
 ## Security
 
