@@ -61,6 +61,8 @@ Start building your smart solutions leveraging the no-cost open-source catalog o
 
 You can use this catalog to implement a platform based on the STF with the flexibility to deploy the complete solution or any of its independent module including the STF IoT module and the Context Broker. 
 
+The list below will be updated over time. 
+
 ### STF Core 
 
 The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker. 
