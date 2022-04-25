@@ -6,6 +6,10 @@ The Smart Territory Framework - STF - is a set of tools and standardized modules
 
 <br>
 
+[![Smart Territory Framework video](./docs/images/stf-yt.png)](https://www.youtube.com/watch?app=desktop&v=4MRZiC1VvKQ "Smart Territory Framework - Foundations for Smart Territories")
+
+<br>
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -14,6 +18,7 @@ The Smart Territory Framework - STF - is a set of tools and standardized modules
     - [Built on an open standard](#built-on-an-open-standard)
 - [Smart Territory Framework Catalog](#smart-territory-framework-catalog)
     - [STF Core](#stf-core)
+    - [Building Data Producers and Data Consumers](#building-data-producers-and-data-consumers)
     - [Data Producers](#data-producers)
     - [Data Consumers](#data-consumers)
 - [Additional Resources](#additional-resources)
@@ -97,6 +102,24 @@ We provide below a list of the different flavors of the STF Core integrating the
 - STF Core using Orion-LD (work in progress)
 
 
+### Building Data Producers and Data Consumers 
+
+When using the STF, Data Producers are decoupled from Data Consumers. You can build each of both independently as the information model is standardized and known in advance. 
+
+You can for example build a [Grafana dashboard](https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html) to visualise your data [using Amazon Athena](https://aws.amazon.com/athena/) to query your IoT Data Lake. 
+
+You can build your Data Producers within hours as the only process needed to integrate a new source of data, is to transform the source data format into the data model relevant to the use case before sending the data to the STF IoT module. 
+
+Below a reference architecture with examples of Data Producers and Data Consumers. 
+
+<br>
+
+![Ref Arch](./docs/images/referencearch.png)
+
+<br>
+
+For each Data Producer, it is about using the right tool to ingest the data and route it to a [Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) that will transform the source data format into an NGSI-LD entity and then publish it into the STF IoT Queue. 
+
 ### Data Producers 
 
 - [**Smart Parking - Bosch PLS**](https://github.com/aws-samples/aws-stf-dp-boschpls). A CDK application to deploy a Data Producer that ingests data from the Bosch PLS, LoRaWAN Parking Lot sensors, using AWS IoT Core for LoRaWAN
@@ -105,6 +128,7 @@ We provide below a list of the different flavors of the STF Core integrating the
 ### Data Consumers 
 
 - Coming soon...
+
 
 ## Additional Resources
 
