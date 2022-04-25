@@ -47,7 +47,7 @@ Using the FIWARE Context Broker territories can assemble and store information f
 <br>
 
 
-It provides geo-located queries capabilities as well as a subscription mechanism. This allows an independent module like a mobile application to query data filtered by geographical location but also to be notified when changes on data take place (e.g., an air quality measurement is above a specified threshold value) or with a given frequency.   
+It provides geo-located queries capabilities as well as a subscription mechanism. This enables an independent module like a mobile application to query data filtered by geographical location but also to be notified with a given frequency or when changes on data take place (e.g., an air quality measurement is above a specified threshold value).   
 
 ### STF IoT module
 
@@ -60,8 +60,6 @@ Built around the FIWARE Context Broker, the STF IoT module expands its capabilit
 <br>
 
 The STF IoT module offers digital twin capabilities, enabling territories to store and retrieve the current state of every registered device in real-time. It also consists of an IoT data lake built on [Amazon S3](https://aws.amazon.com/products/storage/data-lake-storage/) that territories can use to query and generate insights about their IoT data but also to easily visualise them.
-
-
 
 ### Built on an open standard
 
@@ -95,6 +93,7 @@ The list below will be updated over time.
 ### STF Core 
 
 The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker. 
+
 We provide below a list of the different flavors of the STF Core integrating the [multiple implementations](https://www.fiware.org/developers/catalogue/) of the FIWARE Context Broker available. 
 
 - [**STF Core using NEC Scorpio Broker**](https://github.com/aws-samples/aws-stf-core-scorpio). NEC Laboratories Europe and AWS have worked together to provide a scalable and available implementation of the NEC Scorpio Broker 2.0 on AWS using [Serverless services](https://aws.amazon.com/serverless/?nc1=h_ls). 
