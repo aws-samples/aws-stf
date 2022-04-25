@@ -27,15 +27,13 @@ The Smart Territory Framework - STF - is a set of tools and standardized modules
 
 ## Overview
 
-Modular and built on open source and standards, the STF makes it easy to integrate existing solutions and add new capabilities and modules over time to its core.
+Modular and built on open source and standards, the STF makes it easy to integrate existing solutions and add new capabilities and modules over time to its core. The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker.
 
 <br>
 
 ![STF Core](./docs/images/stfcore.png)
 
 <br>
-
-The core of the STF - STF Core - consists of two modules: the STF IoT module and the open-source FIWARE Context Broker.
 
 ### FIWARE Context Broker
 
