@@ -6,7 +6,7 @@ The Smart Territory Framework - STF - is a set of tools and standardized modules
 
 <br>
 
-[![Smart Territory Framework video](./docs/images/stf-yt.png)](https://www.youtube.com/watch?app=desktop&v=4MRZiC1VvKQ "Smart Territory Framework - Foundations for Smart Territories")
+[![Smart Territory Framework video](./docs/images/stf-yt.png)](https://youtu.be/4MRZiC1VvKQ "Smart Territory Framework - Foundations for Smart Territories")
 
 <br>
 
